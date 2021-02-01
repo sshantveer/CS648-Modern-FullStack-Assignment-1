@@ -1,0 +1,18 @@
+table {
+    align-items: left;
+    border-collapse: collapse;
+    height: 478px;
+}
+tr, td {
+    width: 555.2px;
+    text-align: center;
+    border: 2px solid orange;
+    padding: 10px;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
