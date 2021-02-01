@@ -24,7 +24,9 @@ const studentData = studentInfo.map(({ name, imageurl, intro, githuburl }) => (
       </tr>
       <tr>
         <td>
-          <a href={githuburl}>VIEW MY GITHUB REPO </a>
+          <form action={githuburl}>
+            <input type="submit" value="MY GITHUB REPO" />
+          </form>
         </td>
       </tr>
     </tbody>

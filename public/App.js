@@ -13,7 +13,10 @@ const studentData = studentInfo.map(({
 }) => /*#__PURE__*/React.createElement("table", null, /*#__PURE__*/React.createElement("tbody", null, /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, name)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("img", {
   src: imageurl,
   align: "center"
-}))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, intro)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("a", {
-  href: githuburl
-}, "VIEW MY GITHUB REPO "))))));
+}))), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, intro)), /*#__PURE__*/React.createElement("tr", null, /*#__PURE__*/React.createElement("td", null, /*#__PURE__*/React.createElement("form", {
+  action: githuburl
+}, /*#__PURE__*/React.createElement("input", {
+  type: "submit",
+  value: "MY GITHUB REPO"
+})))))));
 ReactDOM.render(studentData, document.getElementById("contents"));
